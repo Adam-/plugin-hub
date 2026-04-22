@@ -36,7 +36,7 @@ subprojects {
 	apply plugin: "java"
 
 	java {
-		sourceCompatibility = 11
+		sourceCompatibility = 21
 	}
 
 	task shadowJar(type: Jar) {
